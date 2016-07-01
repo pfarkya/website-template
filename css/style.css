@@ -32,8 +32,10 @@ header nav{
 List Item Fixing
 ****************************************************/
 ul{
+	display:block;
 	margin:0px;
 	padding:0px;
+	overflow:hidden;
 }
 li{
 	list-style:none;
@@ -56,6 +58,7 @@ nav li:hover > .sublist{
 	position: absolute;
 	/* top:35px; */
 	margin: auto;
+	margin-top:0px;
 	background:#FABDBD;
 }
 
