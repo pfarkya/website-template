@@ -1,0 +1,158 @@
+/**************************************************
+Back Ground Element
+****************************************************/
+body{
+	background:url(../img/background.jpeg) no-repeat fixed;
+	background-size:100% 100%;
+	color:white;
+	text-shadow:1px 1px 20px black;
+	font-family:sans-serif;
+	margin:0px;
+}
+
+/**************************************************
+Header Styling
+****************************************************/
+
+header{
+	position:fixed;
+	width:100%;
+	overflow:hidden;
+	background:#FABDBD;
+	top:0px;
+	left:0px;
+}
+
+header nav{
+	position:absolute;
+	top:25px;
+}
+
+/**************************************************
+List Item Fixing
+****************************************************/
+ul{
+	margin:0px;
+	padding:0px;
+}
+li{
+	list-style:none;
+	margin:10px;
+}
+
+
+/**************************************************
+Navigation List Sublist Styling
+****************************************************/
+nav ul li{
+	float:right;
+}
+
+nav li:hover{
+	color:black;
+}
+nav li:hover > .sublist{
+	display:block;
+	position: fixed;
+	top:40px;
+}
+
+
+/**************************************************
+Image width Fixing
+****************************************************/
+img{
+	width:inherit;
+}
+
+/**************************************************
+Anchor Tag Styling
+****************************************************/
+a{
+	text-decoration:none;
+	color:white;
+}
+
+a:hover{
+  color:black;
+}
+
+/**************************************************
+Page Marining
+****************************************************/
+.page{
+	margin-top:100px;
+
+}
+
+/**************************************************
+Sublist design
+****************************************************/
+.sublist{
+	display:none;
+	position:absolute;
+	top:30px;
+	margin:10px;
+	padding:0px;
+}
+
+.sublist li{
+	float:none;
+}
+
+/**************************************************
+Hero Height Fixing
+****************************************************/
+.hero img{
+	height:300px;
+}
+
+
+/*******************************************************************************
+Section Styles 															   
+********************************************************************************/
+
+
+section{
+	min-height: 300px;
+}
+
+section .subsec{
+	height:50%;
+}
+
+
+.threecol img{
+	height:200px;
+}
+
+
+
+/*******************************************************************************
+ height inheriting for sub items
+********************************************************************************/
+
+
+.hite{
+	height:inherit;
+}
+
+/**************************************************
+Footer Style
+****************************************************/
+footer{
+background:#B4A4A4;
+}
+.foot ul{
+	float:left;
+	padding:10px;
+}
+
+.foot li{
+	display:inline;
+
+}
+
+.foot p{
+	float:right;
+}
