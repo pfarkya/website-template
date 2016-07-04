@@ -187,3 +187,16 @@ Photosec Style
 .continue{
 	text-align:center;
 }
+
+form label{
+    display:block;
+}
+form input, form textarea{
+	display:block;
+	margin:5px;
+}
+
+textarea{
+	width:200px;
+	height:100px;
+}
